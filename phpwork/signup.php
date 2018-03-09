@@ -50,31 +50,15 @@ if(isset($_POST["submit"]))
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<script>
-	function Validate(form)
-	{
+    <head>
 		
-		if(form.F&Lname.value=="")
-		{
-			document.getElementById("F&Lname_error").innerHTML="Please Enter your Product ID";
-			return false;
-		}
-		if(form.login_password.value=="")
-		{
-			document.getElementById("password_error").innerHTML="Please Enter Product Name";
-			return false;
-		}
-      return true;
-		}
-	</script>
-		<meta charset="utf-8">
-		<title>sign up form</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <meta charset="utf-8">
+	<title>sign up form</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	</head>
+    </head>
 	<body>
 		<div class="container">
 			<div><h2>Enter Your Information Data Here...</h2></div>
